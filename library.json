@@ -19,10 +19,10 @@
     },
     "examples": [
         {
-            "name": "example",
-            "base": "examples/",
+            "name": "full-example",
+            "base": "examples",
             "files": [
-                "example.cpp"
+                "full-example.cpp"
             ]
         }
     ],
