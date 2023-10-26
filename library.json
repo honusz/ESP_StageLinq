@@ -20,7 +20,7 @@
     "examples": [
         {
             "name": "full-example",
-            "base": "examples",
+            "base": "examples/",
             "files": [
                 "full-example.cpp"
             ]
@@ -34,7 +34,9 @@
     "export":{
         "include":[
            "include/*",
-           "src/*"
+           "src/*",
+           "examples/*",
+           "library.json"
         ]
      },
     "frameworks": "arduino",

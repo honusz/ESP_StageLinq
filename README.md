@@ -1,4 +1,5 @@
 # ESP_StageLinq
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/honusz/library/ESP_StageLinq.svg)](https://registry.platformio.org/libraries/honusz/ESP_StageLinq)
 
 Proof-of-concept Library for interfacing with StageLinq devices from ESP32 microcontrollers
 
