@@ -1,0 +1,48 @@
+{
+    "name": "ESP_StageLinq",
+    "keywords": "esp32, Denon, StageLinq, Numark, Arduino",
+    "description": "An interface for the StageLinq Protocol",
+    "homepage": "https://github.com/honusz/ESP_StageLinq.git",
+    "repository": {
+      "type": "git",
+      "branch": "main",
+      "url": "https://github.com/honusz/ESP_StageLinq.git"
+    },
+    "version": "0.1.1",
+    "authors": {
+      "name": "honusz",
+      "url": "https://github.com/honusz",
+      "maintainer": true
+    },
+    "dependancies": {
+       "esphome/AsyncTCP-esphome": "^2.0.1"
+    },
+    "examples": [
+        {
+            "name": "example",
+            "base": "examples/",
+            "files": [
+                "example.cpp"
+            ]
+        }
+    ],
+    "exclude": [
+      ".devcontainer",
+      ".github",
+      "extras"
+    ],
+    "export":{
+        "include":[
+           "include/*",
+           "src/*"
+        ]
+     },
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+
+    "build":{
+        "libArchive": true,
+        "includeDir": "include",
+        "srcDir": "src"
+     }
+  }
